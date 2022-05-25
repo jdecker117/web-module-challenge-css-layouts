@@ -1,1 +1,202 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing:border-box;
+    border:1px solid purple;
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Noto Serif', serif;
+    background: rgb(0,191,255);
+background: linear-gradient(0deg, rgba(0,191,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,255,246,1) 100%);
+}
+
+header nav {
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 2%;
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+h1{
+    font-family: 'Noto Serif', serif;
+    font-size:5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: purple;
+}
+
+h2{
+    font-family: 'Noto Serif', serif;
+    font-size:3rem;
+    font-style: italic;
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+}
+
+header nav div{
+    justify-content: space-evenly;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+
+header a{
+    background-color: white;
+    text-decoration: none;
+    color: purple;
+    border: 3px solid purple;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+}
+
+#about div{
+    width: 20%0%;
+}
+
+#my-image{
+    border-radius: 50%;
+}
+
+
+#about a{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: purple;
+    font-size: 2rem;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+#projects div {
+    width: 40%;
+    height: 40vh;
+    margin: 4% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.first{
+    background-image: url(https://i.picsum.photos/id/507/200/300.jpg?hmac=v0NKvUrOWTKZuZFmMlLN_7-RdRgeF-qFLeBGXpufxgg);
+}
+
+.second{
+    background-image: url(https://i.picsum.photos/id/574/200/300.jpg?hmac=8A2sOGZU1xgRXI46snJ80xNY3Yx-KcLVsBG-wRchwFg);
+}
+
+.third{
+    background-image: url(https://i.picsum.photos/id/358/200/300.jpg?hmac=-67HJ1NCrWtZ_ZrX9NaG90kmRdhaN-tkC3A1EoGev3A);
+}
+
+.fourth{
+    background-image: url(https://i.picsum.photos/id/208/200/300.jpg?hmac=MnC8s7YHdlG81eGO_ZmX1VbjLAYw-jIYEe74kkfvuwc);
+}
+
+footer {
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div {
+  width: 30%;
+}
+nav.social {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+nav.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav.main a {
+  margin: 2% 0;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#contact{
+    text-align: center;
+}
+
+footer nav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
